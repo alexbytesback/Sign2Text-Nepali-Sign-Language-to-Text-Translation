@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes rotate-bg {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, strong {
+  font-family: 'DM Sans', serif;
+}
+
+.font-dm-sans {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+}
+.border-color{
+  border-color: #98FB98;
+
+}
+.custom-btn {
+  border-color: #98FB98;
+}
+
+.moving-bg {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    to bottom right,
+    #1e90ff, /* DodgerBlue */
+    #32cd32, /* LimeGreen */
+    #ff4500, /* OrangeRed */
+    #ffd700, /* Gold */
+    #8a2be2  /* BlueViolet */
+    
+  );
+  background-size: 600% 600%;
+  animation: rotate-bg 30s ease infinite alternate-reverse;
+}
+
+@keyframes rotate-bg {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+

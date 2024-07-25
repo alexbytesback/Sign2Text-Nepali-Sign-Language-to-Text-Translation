@@ -1,0 +1,8 @@
+keyboard==0.13.5
+language_tool_python==2.8
+mediapipe==0.10.14
+numpy==2.0.0
+scikit_learn==1.5.1
+tensorflow==2.17.0
+
+pillow~=10.4.0

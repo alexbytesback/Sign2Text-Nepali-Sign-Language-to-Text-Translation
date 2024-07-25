@@ -1,0 +1,11 @@
+{
+  "--- Get Started": {
+    "type": "separator",
+    "title": "Get Started"
+  },
+  "index": "Introduction",
+  "installation": "Installation",
+  "how-it-works": "How It Works"
+
+  
+}

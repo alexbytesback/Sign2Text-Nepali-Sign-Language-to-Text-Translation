@@ -1,0 +1,69 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/22.4.0/bin/node /usr/local/bin/yarn add axios
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  22.4.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/prashantkoirala/Library/Caches/Yarn/v6/npm-glob-parent-6.0.2-6d237d99083950c79290f24c7642a3de9a28f9e3-integrity/node_modules/glob-parent/README.md' -> '/Users/prashantkoirala/Documents/Test-Projects/Nepali-Sign-Language-Translator- Frontend/apps/web/node_modules/tailwindcss/node_modules/glob-parent/README.md'
+
+npm manifest: 
+  {
+    "name": "sign2text-site",
+    "version": "0.0.1",
+    "description": "The official site of sign2text",
+    "scripts": {
+      "dev": "next dev --port=4000",
+      "build": "next build",
+      "start": "next start"
+    },
+    "author": "Prashant Koirala",
+    "license": "MIT",
+    "dependencies": {
+      "@nextui-org/button": "^2.0.26",
+      "@nextui-org/card": "^2.0.24",
+      "@nextui-org/react": "^2.2.9",
+      "@nextui-org/theme": "^2.1.17",
+      "@radix-ui/react-slot": "^1.0.2",
+      "@savvywombat/tailwindcss-grid-areas": "^3.1.0",
+      "@types/react": "^18.2.46",
+      "@types/react-dom": "^18.2.18",
+      "@vercel/analytics": "^1.2.2",
+      "autoprefixer": "^10.4.16",
+      "class-variance-authority": "^0.7.0",
+      "clsx": "^2.0.0",
+      "framer-motion": "^11.0.5",
+      "gsap": "^3.12.2",
+      "lucide-react": "^0.334.0",
+      "next": "14.0.4",
+      "nextra": "latest",
+      "nextra-theme-docs": "latest",
+      "postcss": "^8.4.32",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-icons": "^4.12.0",
+      "rippleui": "^1.12.1",
+      "tailwind-merge": "^2.2.1",
+      "tailwindcss": "^3.4.0",
+      "tailwindcss-animate": "^1.0.7"
+    },
+    "devDependencies": {
+      "@types/node": "^20.10.5",
+      "typescript": "^5.3.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
