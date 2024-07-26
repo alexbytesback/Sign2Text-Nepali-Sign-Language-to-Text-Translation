@@ -211,7 +211,7 @@ We welcome contributions to improve Sign2Text. To contribute:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Team
+## 👥 Meet our Team
 
 - Prashant - Project Lead, Backend Developer, Web Developer
 - Prastuti - Data Collection and Dataset Management
