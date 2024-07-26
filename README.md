@@ -4,9 +4,9 @@ Welcome to **Sign2Text**! 🎉 This innovative project translates Nepali Sign La
 
 ## 📚 Table of Contents
 
-- [Introduction](##introduction)
-- [Features](##features)
-- [Tech Stack](##tech-stack)
+- [Introduction](##🚀Introduction)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
 - [Project Structure](##project-structure)
 - [Installation](##installation)
 - [Usage](##usage)
