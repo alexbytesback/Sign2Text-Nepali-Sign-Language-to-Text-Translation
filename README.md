@@ -22,7 +22,7 @@ Sign2Text bridges the communication gap between deaf individuals and the wider c
 
 - **Real-time Sign Language Recognition:** Translate NSL gestures to text in real-time using your webcam.
 - **User-friendly Interface:** A responsive web interface built with React and Tailwind CSS.
-- **Scalable Backend:** A robust backend powered by Flask for model inference and data handling.
+- **Scalable Backend:** A robust backend powered by OpenCV and TensorFlow for model inference and data handling.
 - **Custom Dataset Support:** Easily extend the model with additional gestures by updating the dataset.
 
 ## Tech Stack
