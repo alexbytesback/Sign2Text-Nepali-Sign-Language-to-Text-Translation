@@ -137,7 +137,7 @@ Welcome to **Sign2Text**! 🎉 This innovative project translates Nepali Sign La
 
 1. Clone the repository:
    ```sh
-   [git clone https://github.com/yourusername/Sign2Text.git]
+   https://github.com/alexbytesback/Sign2Text-Nepali-Sign-Language-to-Text-Translation.git
    ```
 2. Navigate to the `Backend` directory:
    ```sh
