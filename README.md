@@ -1,8 +1,8 @@
-# Sign2Text - Nepali Sign Language to Text Translator
+# 🖐️ **Sign2Text** - Nepali Sign Language to Text Translator
 
-Sign2Text is a project aimed at translating Nepali Sign Language (NSL) into text. This project is developed as part of a hackathon challenge and leverages a combination of machine learning, computer vision, and web technologies to achieve accurate translation of sign language gestures into textual representation.
+Welcome to **Sign2Text**! 🎉 This innovative project translates Nepali Sign Language (NSL) into text. Developed for a hackathon challenge, this solution combines machine learning, computer vision, and web technologies to deliver Nepali sign language translations.
 
-## Table of Contents
+## 📚 Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
@@ -14,34 +14,33 @@ Sign2Text is a project aimed at translating Nepali Sign Language (NSL) into text
 - [License](#license)
 - [Team](#team)
 
-## Introduction
+## 🚀 Introduction
 
-Sign2Text bridges the communication gap between deaf individuals and the wider community by converting NSL gestures into readable text. This project utilizes machine learning models trained on a dataset of NSL gestures and is integrated with a user-friendly web interface for easy interaction.
+**Sign2Text** bridges the communication gap between the deaf community and the wider public by converting NSL gestures into readable text. Using advanced machine learning models trained on NSL gestures, our project features a user-friendly web interface for seamless interaction.
 
-## Features
+## 🌟 Features
 
-- **Real-time Sign Language Recognition:** Translate NSL gestures to text in real-time using your webcam.
-- **User-friendly Interface:** A responsive web interface built with React and Tailwind CSS.
-- **Scalable Backend:** A robust backend powered by OpenCV and TensorFlow for model inference and data handling.
-- **Custom Dataset Support:** Easily extend the model with additional gestures by updating the dataset.
+- **🔍 Real-time Sign Language Recognition:** Translate NSL gestures to text instantly using your webcam.
+- **💻 User-friendly Interface:** A sleek and responsive web interface built with React and Tailwind CSS.
+- **⚙️ Scalable Backend:** Robust backend powered by OpenCV and TensorFlow for efficient model inference and data handling.
+- **🔧 Custom Dataset Support:** Easily extend the model with new gestures by updating the dataset.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 
-- **React**
-- **TypeScript**
-- **Next.js**
-- **Tailwind CSS**
+- **React** 🌐
+- **TypeScript** ✍️
+- **Next.js** 🚀
+- **Tailwind CSS** 🎨
 
 ### Backend
 
-- **Python**
-- **Flask**
-- **TensorFlow**
-- **OpenCV**
+- **Python** 🐍
+- **TensorFlow** 🧠
+- **OpenCV** 📷
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 .
@@ -153,9 +152,17 @@ Sign2Text bridges the communication gap between deaf individuals and the wider c
    ```sh
    pip install -r requirements.txt
    ```
-5. Run the Flask server:
+5. Run the Data Collection Program:
    ```sh
-   python flask_server.py
+   python data_collection.py
+   ```
+5. Run the Model Program:
+   ```sh
+   python model.py
+   ```
+7. Finally, run the main Program:
+ ```sh
+   python main.py
    ```
 
 ### Frontend
@@ -173,13 +180,15 @@ Sign2Text bridges the communication gap between deaf individuals and the wider c
    yarn dev
    ```
 
-## Usage
+## 💻 Usage
 
-1. Open your browser and navigate to `http://localhost:3000`.
-2. Use the interface to interact with the sign language translator.
-3. The application will display the recognized text from your NSL gestures in real-time.
+1. Run the `main.py` and `flask_server.py` from the backend directory.
+2. Navigate to frontend directory and then run `npm run dev or yarn dev`.
+3. Open your browser and navigate to `http://localhost:3000`.
+4. Use the interface to interact with the sign language translator by clicking 'Get Started' button.
+5. The application will display the recognized text from your NSL gestures in real-time.
 
-## Contributing
+## 🤝 Contributing
 
 We welcome contributions to improve Sign2Text. To contribute:
 
@@ -198,11 +207,11 @@ We welcome contributions to improve Sign2Text. To contribute:
    ```
 5. Open a pull request.
 
-## License
+## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Team
+## 👥 Team
 
 - Prashant - Project Lead, Backend Developer, Web Developer
 - Prastuti - Data Collection and Dataset Management
